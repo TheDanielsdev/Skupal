@@ -93,7 +93,7 @@ class MyApp extends StatelessWidget {
             // theme: SkupalThemes.lightTheme,
             // darkTheme: SkupalThemes.darkTheme,
             // OnBoardingMain(stories: stories)
-            home: Reg1(),
+            home: Splash(),
           );
         },
       );
