@@ -86,7 +86,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) => pvd.ChangeNotifierProvider(
         create: (context) => ThemeProvider(),
         builder: (context, _) {
-          final themeProvider = pvd.Provider.of<ThemeProvider>(context);
+          // final themeProvider = pvd.Provider.of<ThemeProvider>(context);
           return MaterialApp(
             debugShowCheckedModeBanner: false,
             // themeMode: themeProvider.themeMode,
